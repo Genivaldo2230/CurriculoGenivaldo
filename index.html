@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo</title>
+    <link href="estilo.css" rel="stylesheet">
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=FAMILY_NAME:wght@WEIGHT_OR_RANGE&display=swap"
+          rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+          integrity="sha512-...seu-código-de-integridade..." rel="stylesheet">
+</head>
+<body>
+
+<div class="conteiner">
+    <h1>Currículo</h1>
+
+    <div style="text-align: center;">
+        <img alt="Foto do Genivaldo" class="profile-pic" src="src/img/genivaldo.jpg">
+        <h1>Genivaldo Alves dos Anjos</h1>
+    </div>
+
+    <!--    <div class="contact"> //faz fica invesivelso pasando maouse pra ver-->
+    <div class="usuario">
+        <h3><i class="fas fa-user"></i> Informação de usuário</h3>
+        <p>Nome: Genivaldo Alves dos Anjos</p>
+    </div>
+    <div class="contato">
+        <h3>Informação de contato</h3>
+        <div class="contact" style="color: yellowgreen">
+            <p><i class="fas fa-phone"></i> Telefone: +55 (11) 960920552</p>
+            <p><i class="fab fa-whatsapp"></i> WhatsApp: <a href="https://api.whatsapp.com/send?phone=5511960920552">Enviar
+                mensagem</a></p>
+        </div>
+    </div>
+
+
+    <div class="email">
+        <h3><i class="fas fa-envelope"></i> Informação de e-mail</h3>
+        <div class="contact">
+            <p><i class="fas fa-envelope"></i> E-mail: <a href="mailto:gda_anjos@hotmail.com.br">gda_anjos@hotmail.com.br</a>
+            </p>
+        </div>
+    </div>
+
+
+    <div class="localizacao">
+        <h3><i class="fas fa-map-marker"></i> Informação de localização</h3>
+        <div class="contact">
+            <a href="https://goo.gl/maps/B95yipx2vfMy2Hr18">
+                <i class="fas fa-map-marker-alt"></i> Localização Google-Maps São Paulo
+            </a>
+        </div>
+
+
+    </div>
+
+<div class="section">
+    <p class="section-title">Objetivo:</p>
+    <p>Buscar oportunidade de estágio na área de Análise e Desenvolvimento de Sistemas para aplicar e aprimorar
+        meus conhecimentos acadêmicos.</p>
+</div>
+
+<div class="section">
+    <p class="section-title">Formação Acadêmica:</p>
+    <p>Curso: Análise e Desenvolvimento de Sistemas</p>
+    <p>Instituição: [Nome da instituição de ensino]</p>
+    <p>Período: 3º semestre (em andamento)</p>
+</div>
+
+<div class="section">
+    <p class="section-title">Habilidades:</p>
+    <div class="skills">
+        <ul style="font-family: 'Segoe Print'">
+            <li>Linguagens de Programação: Java, JavaScript</li>
+            <li>Banco de Dados: SQL, MySQL, Oracle</li>
+            <li>Desenvolvimento Web: HTML5, CSS3, JavaScript, React, Angular, Node.js</li>
+            <li>Frameworks: Spring</li>
+            <li>Controle de Versão: Git</li>
+            <li>Metodologias Ágeis: Scrum, XP, Kanban</li>
+            <li>Desenvolvimento Mobile: Android, React Native</li>
+            <li>Testes de Software: JUnit</li>
+            <li>Virtualização e Contêineres: Docker</li>
+            <li>Desenvolvimento de APIs: REST</li>
+            <li>Ambientes de Desenvolvimento Integrado IDEs: Eclipse, IntelliJ, Visual Studio Code</li>
+            <li>Ferramentas de Gerenciamento de Projetos: Trello</li>
+        </ul>
+        <ul style="font-family: 'Segoe Print'; color: darkred">
+
+
+        </ul>
+    </div>
+    <div class="show-more" onclick="toggleSkills()">Habilidades Técnicas</div>
+</div>
+
+<div class="section">
+    <p class="section-title">Experiência Acadêmica:</p>
+    <p>Projetos de Desenvolvimento:</p>
+    <p>Cursos Complementares: Extensão Senac no (Cic) centro de informação e comércio duração 12 meses</p>
+</div>
+
+<div class="section">
+    <p class="section-title">Idiomas:</p>
+    <p>Português: Nativo</p>
+    <p>Inglês: Nível de conhecimento em inglês, Basic proficiency, Limited ability</p>
+</div>
+
+<div class="section">
+    <p class="section-title">Referências:</p>
+    <p>Referências disponíveis mediante solicitação</p>
+</div>
+
+<footer>
+    <ul class="social-icons">
+        <li><a href="https://www.linkedin.com/in/genivaldo-a-anjos/"><i class="fab fa-linkedin-in"></i></a></li>
+        <li><a href="https://github.com/Genivaldo2230"><i class="fab fa-github"></i></a></li>
+        <li><a href="https://api.whatsapp.com/send?phone=5511960920552
+"><i class="fab fa-whatsapp"></i></a></li>
+        <!-- Adicione mais ícones de redes sociais conforme necessário -->
+    </ul>
+</footer>
+
+
+<script>
+    function toggleSkills() {
+        var skills = document.querySelector('.skills');
+        skills.classList.toggle('show');
+    }
+
+    /**
+     * animação do mostra
+     */
+    function toggleSkills() {
+        var skills = document.querySelector('.skills');
+        skills.classList.toggle('show');
+    }
+</script>
+
+<!-- Inclua o link para a biblioteca Font Awesome -->
+<script crossorigin="anonymous" src="https://kit.fontawesome.com/7e51dcb769.js"></script>
+
+</div>
+</body>
+</html>
